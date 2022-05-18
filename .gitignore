@@ -1,5 +1,5 @@
 /back/images
 /back/node_modules
-/.env
+/back/.env
 /front/node_modules
 /front/.env
