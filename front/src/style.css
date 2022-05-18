@@ -1,0 +1,33 @@
+:root{
+    --red: #D1515A;
+    --blue: #091F43;
+}
+
+.btn-primary{
+    background-color: var(--blue);
+    border: 1px solid var(--blue) !important;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: var(--blue);
+}
+
+.btn-secondary{
+    background-color: var(--red);
+    border: 1px solid var(--red) !important;
+}
+
+.btn-secondary:hover{
+    background-color: white;
+    color: var(--red);
+}
+
+.card-body-bordered{
+    border: 1px solid var(--blue);
+    padding-top: 0;
+}
+
+.card-link{
+    cursor: pointer;
+}
