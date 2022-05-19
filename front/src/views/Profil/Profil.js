@@ -107,7 +107,7 @@ export default {
                     if(data.error){
                         console.log(data.error)
                     } else {
-                        if(this.userId == this.userId) {
+                        if(this.user.userId == this.userId) {
                             localStorage.removeItem('headers')
                             this.$router.push('/')
                         } else {
